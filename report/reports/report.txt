@@ -1,0 +1,35 @@
+Date,Open,High,Low,Close,Volume,OpenInt
+
+date là ngày giao dịch
+
+high là giá trị cao nhất trong ngày
+
+low là giá trị thấp nhất trong ngày
+
+open giá trị lúc mở phiên giao dịch
+
+close giá trị đóng phiên giao dịch
+
+OpenInt khối lượng hợp đồng đang giao dịch trên thị trường và duy trì vị thế sang các phiên giao dịch khác
+
+Volume thể hiện tính thanh khoản trong phiên cũng như sự quan tâm từ 2 phe trên thị trường
+    . Xác nhận đảo chiều
+    Khi volume đạt đỉnh: thường đồng nghĩa với áp lực mua hoặc bán đã chính thức hết.
+    Volume tăng đạt đỉnh – giá tăng => lực mua đã hết, người mua không muốn đẩy giá lên => giá sẽ giảm.
+    Volume tăng đạt đỉnh – giá giảm => lực bán đã hết, người bán không muốn đẩy giá xuống => giá sẽ đảo chiều.
+    . Xác nhận đột phá giá
+    Tại các điểm hỗ trợ và kháng cự, khối lượng là yếu tố quan trọng để xác nhận điểm đột phá giá.
+    Khi volume tăng đột biến trên mức kháng cự hoặc dưới mức hỗ trợ => nhiều khả năng đột phá giá sẽ diễn ra.
+    Khi volume giảm hoặc không có mức tăng đột biến => nhiều khả năng đột phá giá khỏi vùng này đã thất bại.
+
+
+Average Volume – Giá trị trung bình của khối lượng là chỉ báo phân tích kỹ thuật về khối lượng thuộc loại cơ bản nhất. Công thức tính giống như các đường Simple Moving Average (SMA):
+Average_VolumeN=(Volume1+Volume2+..+VolumeN)/N
+
+OBV la chi bao khoi luong phan tich ky thuat mua va ban tren thi truong
+neu gia dong hien tai lon hon gia trong cua truoc
+    obv truoc do+ volume hien tai=obv hien tai
+neu gia dong hien tai nho hon gia trong cua truoc
+    obv truoc do- volume hien tai=obv hien tai
+neu gia dong hien tai bang gia trong cua truoc
+    obv truoc do=obv hien tai
